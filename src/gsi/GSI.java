@@ -11,8 +11,13 @@ public class GSI {
         int num = sc.nextInt();
         System.out.println("Cuantos digitos quiere que contenga?");
         int dig = sc.nextInt();
-        
-        int dig1 = 10*dig;
+        int did1;
+        int suma = 0;
+        for (int i = 1; i <= dig; i++) {
+            suma = 10*10;
+            dig1 = 9*suma;
+        }
+        int dig1 = 9*dig;
         long[] vector = new long[num];
 
         Random randomGenerator = new Random();
